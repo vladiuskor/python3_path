@@ -1,3 +1,4 @@
+# My first comment using Python syntax
 name = "Vlad"
 print(f"Hello {name}, would you like to learn some Python today?")
 
