@@ -19,3 +19,16 @@ del next_motorcycles[0]
 print(next_motorcycles)
 del next_motorcycles[1]
 print(next_motorcycles)
+
+one_more_motorcycles = ['honda', 'yamaha', 'suzuki']
+print(one_more_motorcycles)
+
+popped_motorcycle = one_more_motorcycles.pop()
+print(one_more_motorcycles)
+print(popped_motorcycle)
+
+one_more_motorcycles.append('ducati')
+one_more_motorcycles.append('harley')
+print(one_more_motorcycles)
+one_more_motorcycles.remove('yamaha')
+print(one_more_motorcycles)
