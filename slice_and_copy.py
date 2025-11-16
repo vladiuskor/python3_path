@@ -16,7 +16,7 @@ drug_names_middle_item = int(len(drug_names) / 2 - 1)
 print(drug_names_middle_item)
 
 print(f"The first three items in the list are:{drug_names[:3]}")
-print(f"Three items from the middle of the list are:{drug_names[drug_names_middle_item : drug_names_middle_item + 3]}")
+print(f"Three items from the middle of the list are:{drug_names[drug_names_middle_item: drug_names_middle_item + 3]}")
 print(f"The last three items in the list are:{drug_names[-3:]}")
 print('\n')
 
@@ -41,5 +41,3 @@ print('\n')
 print("My friend’s favorite pizzas are:")
 for pizza in friend_pizzas:
     print(pizza)
-
-
