@@ -7,3 +7,8 @@ for car in cars:
         print(car.title())
 
 
+
+requested_toppings = ['mushrooms', 'onions', 'pineapple']
+
+print('mushrooms' in requested_toppings)
+print('pepperoni' in requested_toppings)
